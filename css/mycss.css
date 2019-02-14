@@ -1,0 +1,85 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+    font-size: 1em;
+    padding:0;
+    margin:0;
+}
+
+#p1{
+  background-image: url('../img/Startscreen_small.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-style: bold;
+}
+
+#header {
+  background-color: #A9E2F3;
+  border-style: none;
+}
+
+#Startbtn{
+  font-size: 1em;
+  max-width: 20%;
+  color: white;
+  background-color: #009900;
+  border-style: none;
+
+}
+
+
+#canvas {
+    background-image: url('../img/Background_Small.png');
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+}
+
+#Startseitebtn{
+  font-size: 1em;
+  max-width: 20%;
+  color: white;
+  background-color: #009900;
+  border-style: none;
+  margin-left: 80%;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+  body{
+      font-size: 1.75em !important;
+  }
+
+  #p1{
+    background-image: url('../img/Startscreen_medium.png');
+    background-size: 100% 100% cover;
+    background-repeat: no-repeat;
+  }
+
+
+  #Startbtn{
+    font-size: 1.5em;
+    max-width: 30%;
+
+  }
+
+  #canvas {
+      background-image: url('../img/Background_medium.png');
+      width: 100%;
+      height: auto;
+      padding: 0;
+      margin: 0;
+      border: 1px solid black;
+  }
+
+  #StartseiteBtn{
+    font-size: 1.5em;
+    max-width: 30%;
+
+  }
+
+}
